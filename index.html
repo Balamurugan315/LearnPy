@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Learning Platform - Interactive Tutorials & Code Editor</title>
+    <meta name="description" content="Learn Python programming with interactive tutorials and online code editor. Master Python concepts from basics to advanced topics." />
+    <meta name="author" content="Python Learning Hub" />
+
+    <meta property="og:title" content="Python Learning Platform - Interactive Tutorials & Code Editor" />
+    <meta property="og:description" content="Learn Python programming with interactive tutorials and online code editor. Master Python concepts from basics to advanced topics." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <!-- Add Pyodide for Python execution -->
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.24.1/full/pyodide.js"></script>
+    
+    <!-- Add Python syntax highlighting styles -->
+    <style>
+      .python-code {
+        background: #1e1e1e;
+        color: #d4d4d4;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font-family: 'Courier New', monospace;
+        overflow-x: auto;
+      }
+      
+      .python-keyword {
+        color: #569cd6;
+      }
+      
+      .python-string {
+        color: #ce9178;
+      }
+      
+      .python-comment {
+        color: #6a9955;
+      }
+      
+      .python-number {
+        color: #b5cea8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
