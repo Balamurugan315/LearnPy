@@ -54,33 +54,53 @@ const Index = () => {
       id: 'programming-importance',
       title: 'Why Programming is Important',
       description: 'Understanding the significance of programming in today\'s world',
-      content: `
-        <div class="prose prose-lg max-w-none">
-          <h3 class="text-2xl font-bold text-gray-800 mb-4">Why Programming is Important</h3>
-          <p class="text-gray-700 mb-6">Programming has become one of the most valuable skills in the 21st century. Here's why:</p>
-          
-          <h4 class="text-xl font-semibold text-gray-800 mb-3">1. Digital Transformation</h4>
-          <p class="text-gray-700 mb-4">Every industry is becoming digital. From healthcare to finance, entertainment to education - software drives innovation.</p>
-          
-          <h4 class="text-xl font-semibold text-gray-800 mb-3">2. Problem-Solving Skills</h4>
-          <p class="text-gray-700 mb-4">Programming teaches you to break down complex problems into smaller, manageable parts. This logical thinking applies to all areas of life.</p>
-          
-          <h4 class="text-xl font-semibold text-gray-800 mb-3">3. Career Opportunities</h4>
-          <p class="text-gray-700 mb-2">Software development offers:</p>
-          <ul class="list-disc pl-6 text-gray-700 mb-4">
-            <li>High salary potential</li>
-            <li>Job security and demand</li>
-            <li>Remote work opportunities</li>
-            <li>Creative expression</li>
-            <li>Continuous learning</li>
-          </ul>
-          
-          <h4 class="text-xl font-semibold text-gray-800 mb-3">4. Automation and Efficiency</h4>
-          <p class="text-gray-700 mb-4">Programming allows you to automate repetitive tasks, saving time and reducing errors.</p>
-          
-          <h4 class="text-xl font-semibold text-gray-800 mb-3">5. Understanding Technology</h4>
-          <p class="text-gray-700">As technology shapes our world, understanding how it works gives you an advantage in any field.</p>
-        </div>
+content: `
+  <div class="prose prose-lg max-w-none">
+    <h3 class="text-2xl font-bold text-gray-800 mb-4">Why Programming is Important</h3>
+    <p class="text-gray-700 mb-6">
+      In today’s digital world, programming is no longer limited to software engineers or IT professionals. It has become a powerful tool for innovation, automation, and transformation across every sector.
+    </p>
+    
+    <h4 class="text-xl font-semibold text-gray-800 mb-3">1. Powering the Digital World</h4>
+    <p class="text-gray-700 mb-4">
+      From websites and apps to AI and automation systems, nearly every digital service is powered by code. Programming drives the infrastructure of modern technology.
+    </p>
+
+    <h4 class="text-xl font-semibold text-gray-800 mb-3">2. Boosting Problem-Solving Skills</h4>
+    <p class="text-gray-700 mb-4">
+      Programming improves logical thinking, pattern recognition, and step-by-step analysis. These skills extend beyond code and help in decision-making and critical thinking in daily life.
+    </p>
+
+    <h4 class="text-xl font-semibold text-gray-800 mb-3">3. Career & Financial Opportunities</h4>
+    <p class="text-gray-700 mb-2">Programming skills are in high demand globally, offering:</p>
+    <ul class="list-disc pl-6 text-gray-700 mb-4">
+      <li>Lucrative job roles like software developer, data analyst, AI engineer</li>
+      <li>Job flexibility (freelance, remote, hybrid)</li>
+      <li>Rapid career growth and promotion potential</li>
+    </ul>
+
+    <h4 class="text-xl font-semibold text-gray-800 mb-3">4. Automation & Productivity</h4>
+    <p class="text-gray-700 mb-4">
+      By writing scripts or applications, you can automate tasks like data entry, file management, report generation, and more — saving time and minimizing errors.
+    </p>
+
+    <h4 class="text-xl font-semibold text-gray-800 mb-3">5. Empowering Innovation</h4>
+    <p class="text-gray-700 mb-4">
+      Startups, mobile apps, and breakthrough technologies like blockchain and AI are all fueled by programming. It empowers individuals to turn ideas into reality.
+    </p>
+
+    <h4 class="text-xl font-semibold text-gray-800 mb-3">6. Tech Literacy & Independence</h4>
+    <p class="text-gray-700 mb-4">
+      Understanding code helps you make smarter tech decisions, be self-sufficient in troubleshooting, and adapt quickly to new digital tools or environments.
+    </p>
+
+    <h4 class="text-xl font-semibold text-gray-800 mb-3">7. Community and Collaboration</h4>
+    <p class="text-gray-700">
+      Programming is supported by open-source communities, hackathons, and forums. Learning it connects you to a global network of creators and learners.
+    </p>
+  </div>
+`,
+
       `,
       codeExample: `# Example: Simple automation script
 import datetime
