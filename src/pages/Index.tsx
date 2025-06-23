@@ -53,7 +53,7 @@ const Index = () => {
     {
       id: 'programming-importance',
       title: 'Why Programming is Important',
-      description: 'Understanding the significance of programming in today\'s world',
+      description: 'Understanding the importance of programming in today\'s world',
       content: `
         <div class="prose prose-lg max-w-none">
           <h3 class="text-2xl font-bold text-gray-800 mb-4">Why Programming is Important</h3>
